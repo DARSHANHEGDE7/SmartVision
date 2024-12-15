@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Project Dashboard</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <style>
+    /* General body styles */
+    body {
+      background-color: #1c1c1c; /* Optional: Add a background color */
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family: 'Arial', sans-serif;
+      color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+    }
+    /* General body styles */
+body {
+  background-image: url('image.png'); /* Path to your JPG image */
+  background-repeat: no-repeat;
+  background-size: contain;  /* Ensures the image fits within the viewport */
+  background-position: center center; /* Centers the image */
+  background-attachment: fixed; /* Keeps the image fixed during scroll */
+  font-family: 'Arial', sans-serif;
+  color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+
+    /* Navbar styling */
+    .navbar {
+      margin-bottom: 10px;
+      border: none;
+      background-color: #333;
+    }
+    .navbar-brand {
+      font-size: 3em; /* Increased size */
+      font-weight: bold;
+      color: #f8f9fa !important;
+      display: flex;
+      align-items: center;
+    }
+    .navbar-brand img {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+    }
+    .navbar-nav li a {
+      color: #f8f9fa !important;
+      font-weight: bold;
+    }
+    .navbar-nav li a:hover {
+      background-color: #444;
+      color: #00ffcc !important;
+    }
+
+    /* Content container */
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 0 15px;
+    }
+
+    /* Card styling with white border */
+    .card {
+      width: 100%;
+      max-width: 300px;
+      padding: 20px;
+      text-align: center;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.1);
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+      border: 2px solid rgba(255, 255, 255, 0.7);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.7);
+    }
+
+    /* Make the heading text black */
+    .card h2 {
+      font-size: 1.8.0em;
+      font-weight: bold;
+      color: black; /* Changed to black */
+    }
+
+    .card hr {
+      border-top: 2px solid #ffffff;
+      margin: 15px 0;
+    }
+
+    .card img {
+      width: 70px;
+      height: 70px;
+      margin-bottom: 10px;
+    }
+
+    /* Button styling with red light hover effect */
+    .btn-custom {
+      display: inline-block;
+      background: linear-gradient(45deg, #28a745, #218838);
+      border: none;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 1em;
+      font-weight: bold;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: box-shadow 0.3s ease, transform 0.3s ease;
+    }
+
+    .btn-custom:hover {
+      box-shadow: 0 0 15px 5px rgba(255, 0, 0, 0.7);
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="/">
+        <img src="https://cdn-icons-png.flaticon.com/128/770/770669.png" alt="Torch Icon">
+        SmartVision
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/">Logout</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Main Content -->
+<div class="container">
+  <!-- Weapon Detection -->
+  <div class="card">
+    <img src="https://cdn-icons-png.flaticon.com/128/855/855023.png" alt="Weapon Detection Icon">
+    <h2>Weapon Detection</h2>
+    <hr>
+    <a href="/Live1" class="btn-custom">Open</a>
+  </div>
+
+  <!-- Accident Detection -->
+  <div class="card">
+    <img src="https://cdn-icons-png.flaticon.com/128/2125/2125190.png" alt="Accident Detection Icon">
+    <h2>Accident Detection</h2>
+    <hr>
+    <a href="/Live2" class="btn-custom">Open</a>
+  </div>
+
+  <!-- Explosion Detection -->
+  <div class="card">
+    <img src="https://cdn-icons-png.flaticon.com/128/13877/13877960.png" alt="Explosion Detection Icon">
+    <h2>Explosion Detection</h2>
+    <hr>
+    <a href="/Live3" class="btn-custom">Open</a>
+  </div>
+
+  <!-- Fighting Detection -->
+  <div class="card">
+    <img src="https://cdn-icons-png.flaticon.com/128/1862/1862967.png" alt="Fighting Detection Icon">
+    <h2>Fighting Detection</h2>
+    <hr>
+    <a href="/Live4" class="btn-custom">Open</a>
+  </div>
+</div>
+
+</body>
+</html>
