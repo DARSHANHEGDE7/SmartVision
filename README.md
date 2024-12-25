@@ -38,7 +38,7 @@ TensorFlow
 PyTorch
 OpenCV
 MediaPipe
-NumPy
+
 🏗 System Architecture
 Below is the architecture powering SmartVision's real-time suspicious activity detection.
 
