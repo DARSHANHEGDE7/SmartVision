@@ -9,7 +9,7 @@ Aggressive actions
 By integrating technologies like SlowFast for activity classification, YOLOv5 for real-time threat detection, and MediaPipe for pose estimation, SmartVision delivers a robust and efficient solution for both public and private space security.
 
 🔍 Features
-✅ Real-Time Suspicious Activity Detection
+✅ Real-Time Suspicious Activity Detection.
 
 Identifies complex human behaviors using SlowFast.
 🛡 Threat Detection
