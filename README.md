@@ -33,7 +33,7 @@ TensorFlow
 PyTorch
 OpenCV
 MediaPipe
-yolov5</p>
+YoloV5</p>
 <p>🏗 System Architecture
 Below is the architecture powering SmartVision's real-time suspicious activity detection.</p>
 <p>Data Input</p>
