@@ -1,7 +1,7 @@
 <h1>SmartVision</h1>
 <hr><p>🚀 SMARTVISION
   
-Real-Time Monitoring and Detection of Suspicious Human Activity Using Deep Learning
+Real-Time Monitoring and Detection of Suspicious Human Activity Using Deep Learning.
 📌 Abstract
 SmartVision is an AI-powered security system designed to monitor and detect suspicious human activities in real-time. Using advanced Deep Learning and Computer Vision techniques, the system analyzes surveillance footage to identify:</p>
 <p>Complex human behaviors
