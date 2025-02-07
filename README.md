@@ -28,7 +28,7 @@ Ensure you have the following installed:
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/darshanhegde7/SmartVision.git
+   git clone https://github.com/yourusername/SmartVision.git
    cd SmartVision
    ```
 2. Create a virtual environment:
@@ -69,6 +69,18 @@ SmartVision/
 │── main.py                  # Main application entry point
 ```
 
+## Results
+Below are some sample results from the SmartVision system:
+
+### Detection of Weapons and Explosives
+![Weapons Detection](results/weapons_detection.png)
+
+### Detection of Suspicious Human Activity
+![Suspicious Activity](results/suspicious_activity.png)
+
+### Real-Time Monitoring
+![Live Monitoring](results/live_monitoring.png)
+
 ## Contributing
 1. Fork the repository.
 2. Create a new branch:
@@ -88,7 +100,10 @@ SmartVision/
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-
+## Contact
+For any queries or suggestions, feel free to reach out:
+- **Email**: your.email@example.com
+- **GitHub Issues**: [Open an issue](https://github.com/yourusername/SmartVision/issues)
 
 ---
 SmartVision aims to revolutionize modern security frameworks by integrating cutting-edge AI with real-time response mechanisms, enhancing situational awareness and public safety.
