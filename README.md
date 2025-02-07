@@ -21,3 +21,6 @@
 ```bash
 git clone https://github.com/your-username/smart-vision.git
 cd smart-vision
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
