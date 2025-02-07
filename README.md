@@ -1,3 +1,5 @@
+## Results
+![Project Screenshot](3.jpg)
 # SmartVision: AI-Powered System for Real-Time Monitoring and Detection of Human Suspicious Activity
 
 ## Overview
@@ -70,7 +72,7 @@ SmartVision/
 ```
 
 ## Results
-![Project Screenshot](3.jpg)
+
 ![Project Screenshot](2.jpg)
 ![Project Screenshot](4.jpg)
 ![Project Screenshot](1.jpg)
