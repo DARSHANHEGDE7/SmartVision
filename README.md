@@ -1,92 +1,31 @@
-SmartVision 🚀
-Real-Time Monitoring and Detection of Suspicious Human Activity Using Deep Learning
+Table of Contents
+General Info
 
-📌 Abstract
-SmartVision is an AI-powered security system designed to monitor and detect suspicious human activities in real-time. Leveraging advanced Deep Learning and Computer Vision techniques, the system analyzes surveillance footage to identify:
+Technologies
 
-Complex human behaviors
+Setup
 
-Potential threats
+General Info
+SmartVision is an AI-powered security system designed to monitor and detect suspicious human activities in real-time. It uses advanced Deep Learning and Computer Vision techniques to analyze surveillance footage and identify complex behaviors, threats, and aggressive actions. The system integrates technologies like SlowFast, YOLOv5, and MediaPipe to provide a robust solution for enhancing security in public and private spaces.
 
-Aggressive actions
+Technologies
+Project is created with:
 
-By integrating cutting-edge technologies like SlowFast for activity classification, YOLOv5 for real-time threat detection, and MediaPipe for pose estimation, SmartVision delivers a robust and efficient solution for enhancing security in both public and private spaces.
+Python: 3.8+
 
-🔍 Features
-✅ Real-Time Suspicious Activity Detection
-Identifies complex human behaviors using SlowFast.
+TensorFlow: 2.x
 
-🛡 Threat Detection
-Detects high-risk scenarios like weapons, accidents, and explosions using YOLOv5.
+PyTorch: 1.x
 
-💪 Pose Estimation
-Leverages MediaPipe to detect physical confrontations or aggressive movements.
+OpenCV: 4.x
 
-📊 Activity Classification
-Differentiates between typical and suspicious activities using ResNet50.
+MediaPipe: 0.x
 
-📢 Real-Time Alerts
-Sends instant notifications to authorities when a potential threat is detected.
+YOLOv5: Latest version
 
-⚙ Technologies Used
-🧠 Deep Learning
-SlowFast: For activity classification from slow and fast video frames.
+Setup
+To run this project, follow these steps:
 
-ResNet50: Recognizes activity patterns to differentiate normal and suspicious behavior.
-
-YOLOv5: Detects high-risk threats in real-time.
-
-👁 Computer Vision
-OpenCV: Video processing and feature extraction.
-
-MediaPipe: Human pose estimation to identify aggressive actions.
-
-🛠 Libraries/Tools
-Python
-
-TensorFlow
-
-PyTorch
-
-OpenCV
-
-MediaPipe
-
-YOLOv5
-
-🏗 System Architecture
-Below is the architecture powering SmartVision's real-time suspicious activity detection:
-
-Data Input
-Video input is taken from surveillance cameras.
-
-Processing
-SlowFast and ResNet50 analyze video streams to detect human activities.
-
-Threat Detection
-YOLOv5 scans for high-risk threats such as weapons, accidents, and explosions.
-
-Pose Estimation
-MediaPipe detects aggressive body movements like fights or confrontations.
-
-Alert System
-Immediate notifications are sent to authorities if any threat is detected.
-
-🚀 Getting Started
-Prerequisites
-Python 3.8 or higher
-
-TensorFlow
-
-PyTorch
-
-OpenCV
-
-MediaPipe
-
-YOLOv5
-
-Installation
 Clone the repository:
 
 bash
