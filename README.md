@@ -1,48 +1,35 @@
-Table of Contents
-General Info
-
-Technologies
-
-Setup
-
-General Info
-SmartVision is an AI-powered security system designed to monitor and detect suspicious human activities in real-time. It uses advanced Deep Learning and Computer Vision techniques to analyze surveillance footage and identify complex behaviors, threats, and aggressive actions. The system integrates technologies like SlowFast, YOLOv5, and MediaPipe to provide a robust solution for enhancing security in public and private spaces.
-
-Technologies
-Project is created with:
-
-Python: 3.8+
-
-TensorFlow: 2.x
-
-PyTorch: 1.x
-
-OpenCV: 4.x
-
-MediaPipe: 0.x
-
-YOLOv5: Latest version
-
-Setup
-To run this project, follow these steps:
-
-Clone the repository:
-
+Smart Vision
+Features
+🚀 Real-time Object Detection
+🎥 Live Video Processing using OpenCV
+🖥️ User-friendly GUI for Configuration
+🤖 AI-powered Recognition
+🔄 Efficient and Optimized Algorithms
+🔍 Accurate and Fast Predictions
+📂 Database
+Uses SQLite for data storage
+Automatic database setup
+Secure data handling
+🛠️ Installation
+1️⃣ Clone the repository
 bash
 Copy
-git clone https://github.com/yourusername/SmartVision.git
-Navigate to the project directory:
-
+Edit
+git clone https://github.com/your-username/smart-vision.git
+cd smart-vision
+2️⃣ Create a virtual environment (recommended)
 bash
 Copy
-cd SmartVision
-Install the required dependencies:
-
+Edit
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+3️⃣ Install required dependencies
 bash
 Copy
+Edit
 pip install -r requirements.txt
-Run the application:
-
+🚀 Usage
 bash
 Copy
+Edit
 python main.py
