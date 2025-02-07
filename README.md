@@ -70,6 +70,8 @@ SmartVision/
 ```
 
 ## Results
+![Project Screenshot](1.jpeg)
+
 
 
 ## Contributing
