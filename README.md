@@ -70,7 +70,7 @@ SmartVision/
 ```
 
 ## Results
-![Project Screenshot](1.jpeg)
+![Project Screenshot](1.jpg)
 
 
 
