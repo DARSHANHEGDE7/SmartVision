@@ -1,6 +1,6 @@
 
 
-# SmartVision: AI-Powered System for Real-Time Monitoring and Detection of Human Suspicious Activity
+# SmartVision: AI-Powered System for Real-Time Monitoring and Detection of Human Suspicious Activity.
 
 ## Overview
 SmartVision is an advanced AI-powered security system designed to enhance safety in both public and private spaces. By leveraging deep learning and computer vision techniques, SmartVision provides real-time monitoring and detection of suspicious human activities, including weapons detection, accidents, and aggressive behavior.
