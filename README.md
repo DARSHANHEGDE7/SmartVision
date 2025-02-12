@@ -30,7 +30,7 @@ Ensure you have the following installed:
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/SmartVision.git
+   git clone https://github.com/darshanhegde7/SmartVision.git
    cd SmartVision
    ```
 2. Create a virtual environment:
