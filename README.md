@@ -25,7 +25,7 @@ Ensure you have the following installed:
 - Python 3.8+
 - pip
 - Git
-- CUDA (for GPU acceleration, optional)
+- CUDA (for GPU acceleration, optional).
 
 ### Setup
 1. Clone the repository:
