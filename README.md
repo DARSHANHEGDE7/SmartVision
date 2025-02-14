@@ -20,7 +20,7 @@ SmartVision is an advanced AI-powered security system designed to enhance safety
 - **TensorFlow/PyTorch**: Deep learning frameworks for model training and deployment.
 
 ## Installation
-### Prerequisites
+### Prerequisites.
 Ensure you have the following installed:
 - Python 3.8+
 - pip
