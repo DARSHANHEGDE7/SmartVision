@@ -28,7 +28,7 @@ Ensure you have the following installed:
 - CUDA (for GPU acceleration, optional).
 
 ### Setup
-1. Clone the repository:
+1. Clone the repository
    ```bash
    git clone https://github.com/darshanhegde7/SmartVision.git
    cd SmartVision
